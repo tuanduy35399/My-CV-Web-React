@@ -1,12 +1,42 @@
-# React + Vite
+# 💼 Personal Portfolio (ReactJS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Xin chào 👋 Đây là website **CV/Portfolio cá nhân** của mình, được xây dựng bằng **ReactJS**.  
+Website này giúp mình giới thiệu bản thân, kỹ năng, kinh nghiệm làm việc và các dự án nổi bật.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tính năng
 
-## Expanding the ESLint configuration
+- 🧑‍💻 **Giới thiệu bản thân** (About Me)
+- 🛠 **Kỹ năng** (Skills & Technologies)
+- 📂 **Dự án cá nhân** (Projects Showcase)
+- 📞 **Thông tin liên hệ** (Contact Form / Social Links)
+- 📱 **Responsive Design** (hiển thị tốt trên cả desktop và mobile)
+- 🎨 **UI hiện đại** với hiệu ứng hover, animation mượt mà
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🖼️ Demo giao diện
+
+![Portfolio Screenshot]()
+
+*(Thêm ảnh chụp màn hình của website vào file `screenshot.png`)*
+
+---
+
+## 🛠️ Công nghệ sử dụng
+
+- ⚛️ [ReactJS](https://react.dev/) – Framework chính
+- 🎨 CSS3 / SCSS / TailwindCSS (tùy cách bạn dùng)
+- 🌐 [React Router](https://reactrouter.com/) – điều hướng trang
+- 📧 EmailJS (tùy chọn) – để gửi form liên hệ qua email
+
+---
+
+## 📦 Cài đặt & Chạy dự án
+
+Clone project về máy:
+
+```bash
+git clone https://github.com/ten-cua-ban/react-cv-portfolio.git
+cd react-cv-portfolio
