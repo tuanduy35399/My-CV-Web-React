@@ -36,15 +36,19 @@ Website này giúp mình giới thiệu bản thân, kỹ năng, kinh nghiệm l
 
 ```bash
 git clone https://github.com/tuanduy35399/My-CV-Web-React.git
+**
 
 ### Truy cập vào thư mục chứa dự án
 ```bash
 cd My-CV-Web-React
+**
 
 ### Tải các module cần thiết
 ```bash
 npm i
+**
 
 ### Khởi chạy dự án
 ```bash
 npm run dev
+**
