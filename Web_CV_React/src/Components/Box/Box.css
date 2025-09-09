@@ -1,0 +1,22 @@
+.layout-box{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.385);
+}
+.layout_title_box, .layout_desc_box{
+    margin: 5px 0;
+}
+.layout-box:last-child{
+    border: none;
+    
+}
+.layout_desc_box{
+    line-height: 1.5;
+}
+
+.list_layout{
+    list-style: none;
+    padding: 0;
+    margin: 0;    
+}

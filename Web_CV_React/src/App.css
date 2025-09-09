@@ -1,0 +1,52 @@
+.AnhDaiDien{
+    width: 300px;
+    height: auto;
+}
+.layout{
+    display: grid;
+    width: 80%;
+    grid-template-columns: 2fr 10fr;   
+    /* grid-template-rows: 100px auto;       */
+    height: auto;
+    margin: 0 auto;
+    background-color: white;
+}
+.layoutPic{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden; 
+    margin:10px 10px;
+}
+
+.div1{
+    background-color: #056e6e;
+    padding: 0px 30px;
+}
+.div2{
+    background-color: #F4F9F9;
+    color: #202d3b;
+    padding: 60px;
+}
+
+@media (max-width: 720px) {
+    .layout {
+        grid-template-columns: 1fr; /* chỉ còn 1 cột */
+        grid-template-rows: auto auto; /* div1 xong tới div2 */
+        width: 100%;
+    }
+
+    .div1, .div2 {
+        height: auto; /* cho nó co theo nội dung */
+    }
+    .div2{
+        padding: 0px 30px;
+    }
+
+}
+.layoutButton{
+    margin: 20px 10px;
+}
+.big_header{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.385);
+}

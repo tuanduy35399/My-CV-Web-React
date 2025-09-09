@@ -1,0 +1,9 @@
+.pic{
+    width: 100%;
+}
+.image_layout{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
