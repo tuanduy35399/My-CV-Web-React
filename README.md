@@ -18,9 +18,7 @@ Website này giúp mình giới thiệu bản thân, kỹ năng, kinh nghiệm l
 
 ## 🖼️ Demo giao diện
 
-![Portfolio Screenshot]()
-
-*(Thêm ảnh chụp màn hình của website vào file `screenshot.png`)*
+![Ảnh demo](./public/demo.png)
 
 ---
 
@@ -38,5 +36,7 @@ Website này giúp mình giới thiệu bản thân, kỹ năng, kinh nghiệm l
 Clone project về máy:
 
 ```bash
-git clone https://github.com/ten-cua-ban/react-cv-portfolio.git
-cd react-cv-portfolio
+git clone https://github.com/tuanduy35399/My-CV-Web-React.git
+cd My-CV-Web-React
+npm i
+npm run dev
